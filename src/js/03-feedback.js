@@ -14,7 +14,7 @@ formEl.addEventListener('submit', onFormSubmit);
 formEl.addEventListener('input', throttle(onFormInput, 500));
 
 function onFormSubmit(event) {
-  event.preventDefault();  
+  event.preventDefault();
 
   localStorage.removeItem(STORAGE_KEY);
 
